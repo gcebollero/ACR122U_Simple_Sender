@@ -2,5 +2,5 @@
 Send hex streams from stdin
 # Compile
 gcc -o sender sender.c -lnfc
-#Use
+# Use
 cat HEX.txt | ./sender
